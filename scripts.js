@@ -1,18 +1,20 @@
-header {
-  background-color: red;
-  padding: 15px;
-  border: 1px groove black;
+const button = document.querySelector('#enter');
+
+const login = document.querySelector('#login');
+
+const password = document.querySelector('#password');
+
+const rightLogin = "test"
+const rightPassword = "1234"
+
+function chekLogin() {
+  if (login.value == rightLogin && password.value == rightPassword) {
+    alert('Right!')
+    document.querySelector("#bulb").style.display = "block"
+  }
+  else {
+    alert('Wrong!')
+  }
 }
 
-footer {
-  border: 1px groove black;
-}
-
-.columns {
-  display: flex;
-}
-
-.column {
-  flex: 2%;
-  border: 1px groove black;
-}
+button.addEventListener('click' , chekLogin)
