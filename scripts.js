@@ -9,11 +9,11 @@ const rightPassword = "1234"
 
 function chekLogin() {
   if (login.value == rightLogin && password.value == rightPassword) {
-    alert('Right!')
+    alert('Добро пожаловать директор АЛЬФА БАНКА!')
     document.querySelector("#bulb").style.display = "block"
   }
   else {
-    alert('Wrong!')
+    alert('Неправильно!')
   }
 }
 
