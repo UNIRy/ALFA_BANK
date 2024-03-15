@@ -4,8 +4,8 @@ const login = document.querySelector('#login');
 
 const password = document.querySelector('#password');
 
-const rightLogin = "test"
-const rightPassword = "1234"
+const rightLogin = "ALFA BANK"
+const rightPassword = "123"
 
 function chekLogin() {
   if (login.value == rightLogin && password.value == rightPassword) {
