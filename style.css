@@ -16,3 +16,11 @@ footer {
   flex: 2%;
   border: 1px groove black;
 }
+
+h2:hover {
+  color: red;
+}
+
+input:hover {
+ background-color:#4682B4;
+}
